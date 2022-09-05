@@ -16,7 +16,7 @@ public class ArrayListPractice {
 		System.out.println(sum);
 	}
 
-	static int sumAllEvenNumbers(ArrayList<Integer> nums) {
+	private static int sumAllEvenNumbers(ArrayList<Integer> nums) {
 		int total = 0;
 		for (int num : nums) {
 			if (num % 2 == 0) {
